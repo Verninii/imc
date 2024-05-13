@@ -17,13 +17,13 @@ public class Imc {
 
         if (imc < 18.5){
             System.out.println("abaixo do peso");
-        } else if (imc >= 18.6 && imc <= 24.9) {
+        } else if (imc >= 18.5 && imc < 25.0) {
             System.out.println("Peso ideal (Parabéns)");
-        } else if (imc >= 25.0 && imc <= 29.9) {
+        } else if (imc >= 25.0 && imc < 30.0) {
             System.out.println("Levemente acima do peso");
-        } else if (imc >= 30.0 && imc <= 34.9) {
+        } else if (imc >= 30.0 && imc < 35.0) {
             System.out.println("Obesidade grau I");
-        } else if (imc >= 35.0 && imc <= 39.9) {
+        } else if (imc >= 35.0 && imc < 40.0) {
             System.out.println("Obesidade grau II (severa)");
         } else {
             System.out.println("Obesidade III (mórbida)");
